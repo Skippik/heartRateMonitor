@@ -9,6 +9,86 @@
   min-height: 650px;
   padding: 21px 0 93px 0;
   background: url(../img/background.png) center center/cover no-repeat; }
+  .promo__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin-top: 90px; }
+    .promo__wrapper .button {
+      width: 150px;
+      height: 30px;
+      background-color: #c70101;
+      border: none;
+      border-radius: 5px;
+      font-size: 12px;
+      line-height: 1.2;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: #ffffff;
+      font-family: 'Museo Sans Cyrl'; }
+      .promo__wrapper .button_main {
+        margin-top: 67px;
+        width: 300px;
+        height: 50px;
+        border-radius: 5px;
+        font-family: 'Museo Sans Cyrl';
+        font-size: 16px;
+        line-height: 1.2; }
+  .promo__header {
+    font-family: 'Museo Sans Cyrl';
+    font-size: 42px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff; }
+  .promo__subheader {
+    margin-bottom: 67px;
+    margin-top: 17px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff; }
+  .promo__icons {
+    margin-bottom: 67px;
+    width: 425px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .promo__icon {
+    width: 160px;
+    text-align: center;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #ffffff; }
+    .promo__icon img {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 20px; }
+  .promo__link {
+    margin-top: 18px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #ffffff; }
+    .promo__link a {
+      color: #ffffff;
+      text-transform: uppercase;
+      text-decoration: underline; }
 
 .header {
   display: -webkit-box;
@@ -54,6 +134,14 @@
     text-transform: uppercase;
     color: #ffffff;
     font-family: 'Museo Sans Cyrl'; }
+    .header .button_main {
+      margin-top: 67px;
+      width: 300px;
+      height: 50px;
+      border-radius: 5px;
+      font-family: 'Museo Sans Cyrl';
+      font-size: 16px;
+      line-height: 1.2; }
   .header__contacts {
     display: -webkit-box;
     display: -ms-flexbox;

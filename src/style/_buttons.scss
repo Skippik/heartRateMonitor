@@ -10,4 +10,14 @@
     text-transform: uppercase;
     color: #ffffff;
     font-family: 'Museo Sans Cyrl';
+    &_main {
+        margin-top: 67px;
+        width: 300px;
+        height: 50px;
+        border-radius: 5px;
+        font-family: 'Museo Sans Cyrl';
+        font-size: 16px;
+        line-height: 1.2;
+    }
 }
+
