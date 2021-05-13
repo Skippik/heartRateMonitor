@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Пульсометры</title>
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="promo">
+    <section class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
-                    <img src="icons/logo.png" alt="logo">
+                    <img src="img/logo.png" alt="logo">
                 </a>
                 <div class="header__official">
                     Официальный представитель
@@ -48,11 +49,65 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="advantages">
+    </section>
+    <section class="advantages">
         <div class="container">
-            
+            <div class="advantages__main">
+                <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
+                <div class="advantages__icons">
+                    <div class="advantages__icon">
+                        <img src="/src/icons/experience.png" alt="Experience">
+                        <h4>Делимся опытом</h4>
+                        <span>Наши сотрудники всегда готовы поделиться своим опытом, 
+                        так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</span>
+                    </div>
+                    <div class="advantages__icon">
+                        <img src="/src/icons/Health.png" alt="Health">
+                        <h4>Заботимся о здоровье</h4>
+                        <span>Мы работаем для того, 
+                        чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</span>
+                    </div>
+                    <div class="advantages__icon">
+                        <img src="/src/icons/run.png" alt="Run">
+                        <h4>Учим бегать</h4>
+                        <span>Помогаем с обучением 
+                        правильной технике бега! 
+                        Дружим с крупнейшей школой бега в России - <br>
+                        <a href="#">I LOVE RUNNING.</a></span>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+    <section class="consultation">
+        <div class="container">
+            <div class="consultation__heading">
+                <h2>Получите бесплатную консультацию<br>
+                    по подбору пульсометра</h2>
+                <h3>Просто заполните форму заявки<br>
+                    и мы перезвоним вам в течении 10 минут</h3>
+            </div>
+            <form action="#" class="feed_form">
+                <input required placeholder="Ваше имя" type="text">
+                <input required placeholder="Ваш телефон" type="tel">
+                <input required placeholder="Ваш E-mail" type="email">
+                <button class="button button_main">ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ</button>
+            </form>
+        </div>
+    </section>
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div><img src="img/carousel_1.png" alt="slide"></div>
+                <div><img src="img/carousel_2.png" alt="slide"></div>
+                <div><img src="img/carousel_3.png" alt="slide"></div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js">
+    </script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

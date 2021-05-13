@@ -111,3 +111,100 @@
         align-items: flex-end;
     }
 }
+
+.advantages {
+    margin: 69px 0 100px 0;
+    .title {
+        text-align: center;
+        font-family: 'Museo Sans Cyrl';
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: 700;
+        color: #0d0d0d;
+    }
+    &__icons {
+        margin-bottom: 67px;
+        padding-top: 65px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 38px;
+        }
+        span {
+            display: block;
+            width: 250px;
+            font-family: 'Museo Sans Cyrl';
+            font-size: 14px;
+            line-height: 1.2;
+            font-weight: 300;
+            color: #0d0d0d;
+            text-align: center;
+        }
+        h4 {
+            text-align: center;
+            font-family: 'Museo Sans Cyrl';
+            font-size: 18px;
+            line-height: 1.2;
+            font-weight: 700;
+            color: #0d0d0d;
+        }
+        a {
+            text-decoration: underline;
+            color: #ff0000;
+        }
+    }
+}
+
+.consultation {
+    min-width: 680px;
+    padding: 100px 0 92px 0;
+    background: url(../img/background_consultation.png) center (center/cover) no-repeat;
+    h2 {
+        padding-bottom: 80px;
+        font-family: 'Museo Sans Cyrl';
+        font-size: 36px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+            }
+    h3 {
+        padding-bottom: 36px;
+        font-family: 'Museo Sans Cyrl';
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 500;
+        color: #ffffff;
+    }   
+        @import './input__form';
+        @import './buttons';
+}
+
+.carousel {
+    padding: 81px 0;
+    &__iner {
+        width: 750px;
+        margin: 0 auto;
+    }
+.slick-prev, .slick-next  {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -66px;
+    border: none;
+    background-color: #fff;
+    margin: 0 auto;
+    img {
+        width: 31px;
+        height: 50px;
+    }
+}
+.slick-next {
+    right: -66px;
+    left: auto;
+}
+}
+
