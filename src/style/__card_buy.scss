@@ -1,0 +1,88 @@
+.card {
+    margin-bottom: 20px;
+    width: 300px;
+    height: 440px;
+    border: 2px solid #e8e8e8;
+    img {
+        margin: 0 auto;
+        padding: 20px;
+        width: 140px;
+        height: 200px;
+    }
+    &__title {
+        font-family: 'Museo Sans Cyrl';
+        font-size: 25px;
+        line-height: 1.2;
+        font-weight: 700;
+        color: #0d0d0d;
+        text-align: center;
+        padding-bottom: 16px;
+    }
+    &__subtitle {
+        font-family: 'Museo Sans Cyrl';
+        font-size: 17px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #0d0d0d;
+        text-align: center;
+        padding-bottom: 17px;
+    }
+    &__more_details {
+        font-family: 'Museo Sans Cyrl';
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 500;
+        text-decoration: underline;
+        color: #c70101;
+        text-align: center;
+        padding-bottom: 10px;
+        &:hover {
+            color: #c70101;
+        }
+    }
+    hr {
+        margin: 0 auto;
+        width: 260px;
+        height: 1px;
+        background-color: black;
+    }
+    &__buy {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+    }
+    &__price {
+        padding-left: 20px;
+    }
+    &__old_price {
+        font-family: 'Museo Sans Cyrl';
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #555555;
+        text-decoration: line-through;
+        padding-bottom: 9px;
+    }
+    &__actual_price {
+        font-family: 'Museo Sans Cyrl';
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 700;
+        color: #050505;
+    }
+    .card__button_buy {
+        margin-right: 19px;
+        width: 131px;
+        height: 40px;
+        background-color: #c70101;
+        border: none;
+        border-radius: 5px;
+        font-size: 12px;
+        line-height: 1.2;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-family: 'Museo Sans Cyrl';
+    }
+}     
