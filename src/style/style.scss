@@ -209,9 +209,8 @@
 }
 
 .catalog {
-    height: 1062px;
-    padding-bottom: 100px;
-    h1 {
+    min-height: auto;
+    h2 {
         text-align: center;
     }
     &__tabs {
@@ -254,4 +253,4 @@
 }
 
 @import './_card_buy';
-
+@import './reviews';

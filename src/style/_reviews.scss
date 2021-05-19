@@ -1,0 +1,50 @@
+.reviews {
+    display: flex;
+    h2 {
+        text-align: center;
+        font-family: 'Museo Sans Cyrl';
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #0d0d0d;
+        padding-bottom: 70px;
+    }
+    &__content {
+        display: flex;
+        flex-direction: row;
+    }
+    &__content-photo {
+        width: 169px;
+        height: 169px;
+        background-color: #0d0d0d;
+        border-radius: 84.5px;
+        margin-right: 62px;
+    }
+    &__content-item {
+        margin-bottom: 102px;
+    }
+    &__content_title {
+        font-family: 'Museo Sans Cyrl';
+        font-size: 18px;
+        line-height: 1.2;
+        font-weight: 700;
+        color: #0d0d0d;
+        padding-bottom: 1px;
+    }
+    &__content_subtitle {
+        font-family: 'Museo Sans Cyrl';
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #646464;
+        padding-bottom: 20px;
+    }
+    &__content_feedback {
+        font-family: 'Museo Sans Cyrl';
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+}
