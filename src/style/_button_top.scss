@@ -1,0 +1,38 @@
+.top_button {    
+    background: url(../icons/top.png) center (center/cover) no-repeat;
+    background-color: #c70101;
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    z-index: 9999;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 2px;
+    display: none;
+
+} 
+
+    .top_button-show {
+        display: block;
+    }
+
+    .top_button:hover {   
+        cursor: pointer;   
+        background-color: #333; 
+} 
+    .top_button:active {   
+        background-color: #555; 
+} 
+
+    .button::after {
+    // background: url(../icons/top.png) center (center/cover) no-repeat;
+        font-family: FontAwesome;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 2em;
+        line-height: 50px;
+        color: #fff; 
+}
