@@ -161,7 +161,9 @@
             align-items: flex-end; }
 
 .advantages {
-  margin: 69px 0 100px 0; }
+  background-color: #f6f6f6;
+  padding-top: 70px;
+  padding-bottom: 67px; }
   .advantages .title {
     text-align: center;
     font-family: 'Museo Sans Cyrl';
@@ -170,7 +172,6 @@
     font-weight: 700;
     color: #0d0d0d; }
   .advantages__icons {
-    margin-bottom: 67px;
     padding-top: 65px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -204,6 +205,15 @@
     .advantages__icons a {
       text-decoration: underline;
       color: #ff0000; }
+  .advantages .advantages__icon-animated {
+    -webkit-animation-name: heartBeats;
+            animation-name: heartBeats;
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite; }
 
 .consultation {
   min-width: 680px;
@@ -333,6 +343,28 @@
       color: #fff;
       background-color: #c70101;
       border: none; }
+
+@-webkit-keyframes heartBeats {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  50% {
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4); }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
+
+@keyframes heartBeats {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  50% {
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4); }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1); } }
 
 .top_button {
   background: url(../icons/top.png) center center/cover no-repeat;

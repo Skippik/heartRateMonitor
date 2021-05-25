@@ -113,7 +113,9 @@
 }
 
 .advantages {
-    margin: 69px 0 100px 0;
+    background-color: #f6f6f6;
+    padding-top: 70px;
+    padding-bottom: 67px;
     .title {
         text-align: center;
         font-family: 'Museo Sans Cyrl';
@@ -123,7 +125,7 @@
         color: #0d0d0d;
     }
     &__icons {
-        margin-bottom: 67px;
+        // margin-bottom: 67px;
         padding-top: 65px;
         display: flex;
         justify-content: space-between;
@@ -156,6 +158,13 @@
             color: #ff0000;
         }
     }
+    .advantages__icon-animated {
+        animation-name: heartBeats;
+        animation-duration: 1.5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+
 }
 
 .consultation {
@@ -252,7 +261,7 @@
     }
 }
 
-
+@import './animation.scss';
 @import './button_top';
 @import './_card_buy';
 @import './reviews';

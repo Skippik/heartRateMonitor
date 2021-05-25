@@ -35,7 +35,7 @@ $(document).ready(function(){
     toggleSlied('.catalog-item__back');
     
 
-    //top__Buttons
+    
 
 });
 
