@@ -16,7 +16,7 @@
 
     function backBtn() {
         if (window.pageYOffset > 0) {
-            window.scrollBy(0, -400);
+            window.scrollBy(0, -700);
             setTimeout(backBtn, 0);
     }
 }

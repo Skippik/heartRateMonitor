@@ -665,4 +665,242 @@
       padding-right: 15px; }
   .footer__social :last-child img {
     padding-right: 0; }
+
+.modal__request {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 380px;
+  height: 400px;
+  background-color: #f2f2f2; }
+  .modal__request h2 {
+    padding-top: 38px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 19px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #0d0d0d;
+    text-align: center; }
+  .modal__request .modal_subtitle {
+    padding-top: 11px;
+    padding-bottom: 25px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #0d0d0d;
+    text-align: center; }
+  .modal__request .modal__request_input-name {
+    padding-top: 25px;
+    width: 300px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 5px; }
+  .modal__request .btn-close {
+    position: absolute;
+    left: 100%;
+    margin-left: 10px;
+    background: url(../icons/close.png); }
+  .modal__request .modal__input-name {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 5px; }
+  .modal__request .modal__input-phone {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 5px; }
+  .modal__request .modal__input-email {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 5px; }
+  .modal__request .modal__button-order {
+    width: 300px;
+    height: 55px;
+    background-color: #c70101;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff; }
+    .modal__request .modal__button-order .top_button {
+      background: url(../icons/top.png) center center/cover no-repeat;
+      background-color: #c70101;
+      position: fixed;
+      bottom: 80px;
+      right: 40px;
+      z-index: 9999;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+      cursor: pointer;
+      border-radius: 2px;
+      display: none; }
+    .modal__request .modal__button-order .top_button-show {
+      display: block; }
+    .modal__request .modal__button-order .top_button:hover {
+      cursor: pointer;
+      background-color: #333; }
+    .modal__request .modal__button-order .top_button:active {
+      background-color: #555; }
+    .modal__request .modal__button-order .button::after {
+      font-family: FontAwesome;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 2em;
+      line-height: 50px;
+      color: #fff; }
+
+.modal__order {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 380px;
+  height: 400px;
+  background-color: #f2f2f2; }
+  .modal__order h2 {
+    padding-top: 38px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 19px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #0d0d0d;
+    text-align: center; }
+  .modal__order .modal_subtitle {
+    padding-top: 11px;
+    padding-bottom: 25px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #0d0d0d;
+    text-align: center; }
+  .modal__order .btn-close {
+    position: absolute;
+    left: 100%;
+    margin-left: 10px;
+    background: url(../icons/close.png); }
+  .modal__order .modal__input-name {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 5px; }
+  .modal__order .modal__input-phone {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 5px; }
+  .modal__order .modal__input-email {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 5px; }
+  .modal__order .modal__button-order {
+    width: 300px;
+    height: 55px;
+    background-color: #c70101;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff; }
+    .modal__order .modal__button-order .top_button {
+      background: url(../icons/top.png) center center/cover no-repeat;
+      background-color: #c70101;
+      position: fixed;
+      bottom: 80px;
+      right: 40px;
+      z-index: 9999;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+      cursor: pointer;
+      border-radius: 2px;
+      display: none; }
+    .modal__order .modal__button-order .top_button-show {
+      display: block; }
+    .modal__order .modal__button-order .top_button:hover {
+      cursor: pointer;
+      background-color: #333; }
+    .modal__order .modal__button-order .top_button:active {
+      background-color: #555; }
+    .modal__order .modal__button-order .button::after {
+      font-family: FontAwesome;
+      font-weight: normal;
+      font-style: normal;
+      font-size: 2em;
+      line-height: 50px;
+      color: #fff; }
+
+.modal__thanks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 380px;
+  height: 140px;
+  background-color: #f2f2f2; }
+  .modal__thanks h2 {
+    padding-top: 38px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 19px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #0d0d0d;
+    text-align: center; }
+  .modal__thanks .modal_subtitle {
+    padding-top: 11px;
+    padding-bottom: 25px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #0d0d0d;
+    text-align: center; }
+  .modal__thanks .btn-close {
+    position: absolute;
+    left: 100%;
+    margin-left: 10px;
+    background: url(../icons/close.png); }
 /*# sourceMappingURL=style.css.map */
